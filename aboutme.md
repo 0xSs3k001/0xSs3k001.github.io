@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Web Aplication Tester Enjoyer :)
+subtitle: Web Application Tester Enjoyer :)
 ---
 
 Mi nombre real es Bruno y:
