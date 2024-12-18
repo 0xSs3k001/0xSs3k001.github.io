@@ -42,7 +42,7 @@ Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos d
 
 La linea request es la primera linea dentro de HTTP request y contiene los siguientes tres componentes: 
 - Método HTTP (ej., GET, POST, PUT, DELETE, OPTIONS, etc.): Indíca el tipo de solicitud que se está realizando.
-- URL (Uniform Resource Locator): La di rección del recursos a la que el cliente quiere acceder.
+- URL (Uniform Resource Locator): La dirección del recursos a la que el cliente quiere acceder.
 - Versión HTTP: La versión del protocolo HTTP que se está usando (ej., HTTP/1.1).
 
 ### II. Request header.
@@ -59,5 +59,12 @@ Las cabeceras entregan información adicional sobre la solicitud que se está re
 Algunos métodos HTTP (como POST o PUT) incluyen una request body donde se envía al servidor la data que se quiere manipular, comunmente en JSON.4
 
 ~~~
-**hola** asd a
+GET  /HTTP/1.1
+Host: www.sitioejemplo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept: text/html, application/xhtml+xml
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+<BODY>
 ~~~
