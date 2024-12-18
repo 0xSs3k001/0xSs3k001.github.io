@@ -73,6 +73,8 @@ Connection: keep-alive
 <BODY>
 ~~~
 
+-----------------
+
 ## Hablemos de los tipos de métodos.
 
 | Método | Función |
