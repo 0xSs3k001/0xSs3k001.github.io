@@ -56,7 +56,11 @@ Las cabeceras entregan información adicional sobre la solicitud que se está re
 
 ### III. Request body (opcional).
 
-Algunos métodos HTTP (como POST o PUT) incluyen una request body donde se envía al servidor la data que se quiere manipular, comunmente en JSON.4
+Algunos métodos HTTP (como POST o PUT) incluyen una request body donde se envía al servidor la data que se quiere manipular, comunmente en JSON.
+
+------------------------
+
+### Ejemplo de HTTP request (mostrada en la imágen anterior)
 
 ~~~
 GET  /HTTP/1.1
@@ -68,3 +72,17 @@ Connection: keep-alive
 
 <BODY>
 ~~~
+
+## Hablemos de los tipos de métodos.
+
+| Método | Función |
+| :------ |:--- | :--- |
+| GET | Solicita datos de un servidor sin modificar nada. Es utilizado para obtener información de una URL específica, como páginas web, imágenes o archivos. Es un método seguro y idempotente, lo que significa que no tiene efectos secundarios y su resultado no cambia si se ejecuta varias veces |
+| POST | Envía datos al servidor para crear o modificar un recurso. Se usa comúnmente en formularios, como registro, inicio de sesión o envío de datos. A diferencia de GET, no es idempotente, lo que implica que al enviarlo varias veces puede generar diferentes resultados |
+| PUT | Reemplaza un recurso completo en el servidor, creando o actualizando el recurso en la URL especificada. Se usa cuando se requiere actualizar un recurso con nuevos datos completos, como modificar un perfil de usuario o actualizar una entrada en una base de datos. Es idempotente, lo que significa que al repetir la solicitud no cambia el resultado |
+| DELETE | Elimina un recurso específico en el servidor, como eliminar un producto, usuario o archivo. Es útil en aplicaciones para realizar operaciones de limpieza o eliminación permanente. Al igual que PUT, es idempotente; si se realiza varias veces, no tendrá efectos adicionales después de la primera ejecución |
+| PATCH | Realiza una actualización parcial de un recurso, enviando solo los datos que deben ser modificados. Ideal para cambios pequeños, como actualizar un campo específico de un objeto o entrada, sin necesidad de reemplazar el recurso completo. No es idempotente por completo, ya que depende de los cambios que se realicen |
+| HEAD | Solicita solo los encabezados de un recurso sin obtener su cuerpo. Es útil para obtener metadatos como el tipo de contenido, la longitud del archivo o la última modificación de un recurso, sin necesidad de descargarlo. Es como un GET pero sin recibir los datos asociados al recurso |
+| OPTIONS | Solicita los métodos HTTP permitidos por el servidor para un recurso específico. Se usa para saber qué operaciones (GET, POST, PUT, etc.) se pueden realizar en una URL, y es útil en la negociación de CORS (Cross-Origin Resource Sharing) para definir las políticas de acceso entre dominios | 
+
+
