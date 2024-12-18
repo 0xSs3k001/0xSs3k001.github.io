@@ -10,4 +10,14 @@ author: ss3k
 ---
 
 {: .box-success}
-Esta es una introducción al protocolo HTTP/s (notese que estaremos hablando de HTTP y HTTPs de manera indistinta ya que, en esta ocasión, no es relevante tener en cuenta la diferencia en cuanto a seguridad que poseen entre sí)
+Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos de este tema, utilizaremos los términos HTTP y HTTPS de manera indistinta, ya que en esta ocasión no nos enfocaremos en las diferencias de seguridad que existen entre ambos.
+
+## ¿Qué es HTTP?
+
+- HTTP (Protocolo de Transferencia de Hipertexto) es un protocolo de capa de aplicación **sin estado**, utilizado para la transmisión de recursos, como datos de aplicaciones web, que funciona sobre TCP.
+- Fue diseñado específicamente para la comunicación entre navegadores web y servidores web.
+- HTTP utiliza la arquitectura típica cliente-servidor para la comunicación, donde el navegador es el cliente y el servidor web es el servidor.
+- Los recursos se identifican de manera única mediante una URL/URI.
+{: .box-note}
+**Nota:** URI: Uniform Resource Identifier || URL: Uniform Resource Locator
+
