@@ -33,3 +33,31 @@ Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos d
 #### Dentro de esta comunicación hay dos secciones escenciales --> HEADERS y MESSAGE BODY
 
 ![Burp](/assets/img/burp.jpg){: .mx-auto.d-block :}
+
+---------------------
+
+## Hablemos de los componentes de **HTTP _request_**
+
+### I. Request line.
+
+La linea request es la primera linea dentro de HTTP request y contiene los siguientes tres componentes: 
+- Método HTTP (ej., GET, POST, PUT, DELETE, OPTIONS, etc.): Indíca el tipo de solicitud que se está realizando.
+- URL (Uniform Resource Locator): La di rección del recursos a la que el cliente quiere acceder.
+- Versión HTTP: La versión del protocolo HTTP que se está usando (ej., HTTP/1.1).
+
+### II. Request header.
+
+Las cabeceras entregan información adicional sobre la solicitud que se está realizando. Algunas cabeceras comunes son:
+- User-Agent: Información sobre el cliente que realiza la solicitud (ej., tipo de navegador).
+- Host: El hostname del servidor.
+- Accept: El tipo de contenido que puede manejar el cliente en la respuesta (ej., HTML, JSON).
+- Authorization: Credenciales de acceso en caso de ser necesario.
+- Cookie: Información almacenada por lado del cliente (_client-side_) y enviada de vuelta al servidor en cada solicitud.
+
+### III. Request body (opcional).
+
+Algunos métodos HTTP (como POST o PUT) incluyen una request body donde se envía al servidor la data que se quiere manipular, comunmente en JSON.4
+
+~~~
+**hola** asd a
+~~~
