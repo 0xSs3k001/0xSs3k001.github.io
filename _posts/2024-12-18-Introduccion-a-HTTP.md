@@ -22,11 +22,12 @@ Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos d
 {: .box-note}
 **Nota:** URI: Uniform Resource Identifier || URL: Uniform Resource Locator
 
-### El flujo, a simple vista, es tal que así:
+#### El flujo, a simple vista, es tal que así:
 ![HTTP](/assets/img/http-basics-1.webp){: .mx-auto.d-block :}
 
 - Durante uan comunicación HTTP, el cliente y el servidor intercambian mensajes, comunmente clasificados como _HTTP requests_ y _responses_.
 - El cliente envía solicitudes al servidor (_requests_) y recibe respuestas (_responses_).
 
-Dentro esta comunicación se pueden identificar dos secciones escenciales: HEADERS y MESSAGE BODY:
-![Burp](/assets/img/burp.jpg)
+#### Dentro esta comunicación se pueden identificar dos secciones escenciales: HEADERS y MESSAGE BODY:
+
+![Burp](/assets/img/burp.jpg){: .mx-auto.d-block :}
