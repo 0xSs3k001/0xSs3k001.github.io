@@ -30,6 +30,6 @@ Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos d
 - El cliente envía solicitudes al servidor (_requests_) y recibe respuestas (_responses_).
 
 
-#### Dentro de esta comunicación se pueden identificar dos secciones escenciales: HEADERS y MESSAGE BODY:
+#### Dentro de esta comunicación hay dos secciones escenciales --> HEADERS y MESSAGE BODY
 
 ![Burp](/assets/img/burp.jpg){: .mx-auto.d-block :}
