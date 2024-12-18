@@ -18,6 +18,7 @@ Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos d
 - Fue diseñado específicamente para la comunicación entre navegadores web y servidores web.
 - HTTP utiliza la arquitectura típica cliente-servidor para la comunicación, donde el navegador es el cliente y el servidor web es el servidor.
 - Los recursos se identifican de manera única mediante una URL/URI.
+
 {: .box-note}
 **Nota:** URI: Uniform Resource Identifier || URL: Uniform Resource Locator
 
