@@ -6,7 +6,6 @@ cover-img: /assets/img/http-protocol.jpg
 thumbnail-img: /assets/img/HTTPs.png
 share-img: /assets/img/http-protocol.jpg
 tags: [protocolo, concepto]
-author: ss3k
 ---
 
 {: .box-success}
