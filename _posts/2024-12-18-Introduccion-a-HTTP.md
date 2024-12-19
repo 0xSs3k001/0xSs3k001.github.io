@@ -87,4 +87,9 @@ Connection: keep-alive
 | HEAD | Solicita solo los encabezados de un recurso sin obtener su cuerpo. Es útil para obtener metadatos como el tipo de contenido, la longitud del archivo o la última modificación de un recurso, sin necesidad de descargarlo. Es como un GET pero sin recibir los datos asociados al recurso |
 | OPTIONS | Solicita los métodos HTTP permitidos por el servidor para un recurso específico. Se usa para saber qué operaciones (GET, POST, PUT, etc.) se pueden realizar en una URL, y es útil en la negociación de CORS (Cross-Origin Resource Sharing) para definir las políticas de acceso entre dominios | 
 
+-------------------------
 
+# [AQUÍ] PRÓXIMAMENTE HTTP RESPONSE COMPONENTS
+
+
+----------------
