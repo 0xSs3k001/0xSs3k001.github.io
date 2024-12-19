@@ -24,6 +24,18 @@ layout: null
   --mid-col: #808080;
 }
 
+/* COSTOMS */
+
+pre, code {
+  background-color: #1A0A33; /* Fondo oscuro morado */
+  color: #B566FF; /* Texto morado más tenue */
+  font-family: "Courier New", Courier, monospace; /* Fuente monoespaciada */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+                       
 /* --- General --- */
 
 html {
