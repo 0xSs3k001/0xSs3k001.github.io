@@ -10,7 +10,8 @@ tags: [protocolo, concepto]
 
 
 ## ¿Qué es HTTP?
-> HTTP (Protocolo de Transferencia de Hipertexto) es un protocolo de capa de aplicación sin estado, utilizado para la transmisión de recursos, como datos de aplicaciones web, que funciona sobre TCP. Fue diseñado específicamente para la comunicación entre navegadores web y servidores web. Este protocolo emplea la arquitectura típica cliente-servidor para la comunicación, donde el navegador actúa como cliente y el servidor web como servidor. Los recursos se identifican de manera única mediante una URL/URI.
+
+> _HTTP (Protocolo de Transferencia de Hipertexto) es un protocolo de capa de aplicación sin estado, utilizado para la transmisión de recursos, como datos de aplicaciones web, que funciona sobre TCP. Fue diseñado específicamente para la comunicación entre navegadores web y servidores web. Este protocolo emplea la arquitectura típica cliente-servidor para la comunicación, donde el navegador actúa como cliente y el servidor web como servidor. Los recursos se identifican de manera única mediante una URL/URI_.
 
 {: .box-note}
 **Nota:** URI: Uniform Resource Identifier || URL: Uniform Resource Locator
