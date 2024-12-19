@@ -79,15 +79,30 @@ body {
   color: var(--text-col);
   position: relative;
   background-color: var(--page-col);
+  
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
+  
   overflow-wrap: break-word;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+/* Capa semitransparente sobre el fondo */
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad a tu gusto */
+  z-index: -1; /* Coloca la capa detrás del contenido */
+}
+
 body > main {
   flex: 1;
 }
