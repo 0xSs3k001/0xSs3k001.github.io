@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducción al protocolo HTTP
+title: Introducción al protocolo HTTP.txt
 subtitle: Conceptos básicos y flujo general
 cover-img: /assets/img/http-protocol.jpg
 thumbnail-img: /assets/img/HTTPs.png
