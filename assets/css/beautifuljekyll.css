@@ -94,12 +94,12 @@ body {
 /* Capa semitransparente sobre el fondo */
 body::after {
   content: "";
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Ajusta la opacidad a tu gusto */
+  background-color: rgba(0, 0, 0, 1); /* Ajusta la opacidad a tu gusto */
   z-index: -1; /* Coloca la capa detrás del contenido */
 }
 
