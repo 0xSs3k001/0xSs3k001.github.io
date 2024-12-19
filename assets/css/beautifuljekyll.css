@@ -1014,8 +1014,8 @@ pre {
 }
 
 .box-note {
-  background-color: #eee;
-  border-left-color: #2980b9;
+  background-color: rgba(128, 0, 128, 0.2); /* Fondo morado suave y transparente */
+  border-left: 5px solid #2980b9; /* Borde izquierdo azul */
 }
 
 .box-warning {
