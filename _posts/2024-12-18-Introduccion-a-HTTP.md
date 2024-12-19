@@ -8,8 +8,10 @@ share-img: /assets/img/http-protocol.jpg
 tags: [protocolo, concepto]
 ---
 
-{: .box-success}
-Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos de este tema, utilizaremos los términos HTTP y HTTPS de manera indistinta, ya que en esta ocasión no nos enfocaremos en las diferencias de seguridad que existen entre ambos.
+
+# Introducción
+
+> Esta es una introducción al protocolo HTTP/s. Cabe destacar que, para efectos de este tema, utilizaremos los términos HTTP y HTTPS de manera indistinta, ya que en esta ocasión no nos enfocaremos en las diferencias de seguridad que existen entre ambos.
 
 ## ¿Qué es HTTP?
 
