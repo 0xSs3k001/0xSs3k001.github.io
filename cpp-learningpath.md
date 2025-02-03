@@ -13,3 +13,5 @@ permalink: /cpp-learningpath/
     <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
   </article>
 {% endfor %}
+
+### Bueno hijos de perra qué pasa realmente. Esta categoría la he creado para subir mis avances en el aprendizaje de C++. A fecha 03 de Febrero del 2025 he decidido pausar mis avances en hacking y enfocarme ÚNICA y EXCLUSIVAMENTE en C++ ya que es una habilidad bastante necesaria para el óptimo y competente desempeño en este rubro, y el que diga lo contrario tiene toda la razón. Aquí podrán encontrar todo lo que usé y creé en esta terrible travesía llamada "Ruta de Aprendizaje C++". Espero no quedar calvo o con pérdida parcial de mi sistema nervioso.
