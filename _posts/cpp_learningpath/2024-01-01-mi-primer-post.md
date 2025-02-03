@@ -1,9 +1,7 @@
 ---
-title: "Título del Post"
-categories: [cpp_learningpath]  # ¡Importante!
-tags:       # Opcional
-  - C++
-  - Programación
+title: "Aprendiendo POO en C++"
+categories: cpp_learningpath  # ¡Clave aquí!
+date: 2024-07-20
 ---
 
 hola 
