@@ -1,0 +1,32 @@
+.category-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  h2 a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    
+    li {
+      margin: 0.5rem 0;
+      
+      a {
+        color: #c9d1d9;
+        &:hover {
+          color: #58a6ff;
+        }
+      }
+    }
+  }
+}
