@@ -1,8 +1,5 @@
 # 🛡️ 0xSS3k001's Cyber Realm 💻
 
-<!-- Si tienes un banner, reemplaza esta URL -->
-![Banner](https://i.imgur.com/cyBERbN.png) 
-
 🌐 **Visita el sitio web**: [https://0xss3k001.github.io/](https://0xss3k001.github.io/) [![Website Status](https://img.shields.io/website?down_color=red&down_message=Offline&label=STATUS&logo=vercel&style=for-the-badge&up_color=green&up_message=Online&url=https%3A%2F%2F0xss3k001.github.io%2F)](https://0xss3k001.github.io/)
 
 🚀 **Bienvenido/a a mi rincón cibernético**, un espacio donde la ética hacker y el conocimiento de seguridad digital se fusionan en:
