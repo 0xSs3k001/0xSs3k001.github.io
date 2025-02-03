@@ -259,15 +259,23 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+# Permalink global (para todos los posts)
+permalink: /:categories/:title/
+# Paginación (si usas el plugin)
+paginate: 5
+paginate_path: "/blog/page:num/"
+# Configuración de markdown
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:year/:month/:day/:title/
-paginate: 5
-
+timezone: "America/Toronto"
+# Solo si necesitas colecciones adicionales (no para _posts)
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
+    
 kramdown:
   input: GFM
-
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
