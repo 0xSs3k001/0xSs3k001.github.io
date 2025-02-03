@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Ruta de Aprendizaje C++"
-permalink: /cpp_learningpath/  # ¡Debe coincidir con la URL deseada!
+permalink: /cpp-learningpath/  # ¡Debe coincidir con la URL deseada!
 ---
 
 <h2>📚 Todos los posts de C++</h2>
