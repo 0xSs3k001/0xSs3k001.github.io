@@ -1,5 +1,23 @@
 ---
-layout: home
-title: ss3k
-subtitle: Sitio donde aparecen recursos y guías interesantes
+layout: page
+title: Inicio
+permalink: /
 ---
+
+## 📂 Contenido Organizado
+
+{% assign categories = site.categories | sort %}
+{% for category in categories %}
+  <div class="category-card">
+    <h2>
+      <a href="/{{ category[0] }}/">
+        {{ category[0] | replace: "_", " " | capitalize }}
+      </a>
+    </h2>
+    <ul>
+      {% for post in category[1] limit:3 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
