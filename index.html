@@ -1,23 +1,44 @@
 ---
 layout: page
-title: Inicio
+title: SS3k BLOG
 permalink: /
 ---
 
-📂 ##Contenido Organizado
+<section class="content-organizado">
+  <h2 class="section-title">📂 Contenido Organizado</h2>
 
-{% assign categories = site.categories | sort %}
-{% for category in categories %}
-  <div class="category-card">
-    <h2>
-      <a href="/{{ category[0] }}/">
-        {{ category[0] | replace: "_", " " | capitalize }}
-      </a>
-    </h2>
-    <ul>
-      {% for post in category[1] limit:3 %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endfor %}
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    {% assign category_name = category[0] %}
+    {% assign posts = category[1] %}
+    
+    <article class="category-card">
+      <header>
+        <h3 class="category-title">
+          <a href="/{{ category_name | slugify }}/" class="category-link">
+            {{ category_name | replace: '_', ' ' | capitalize }}
+          </a>
+        </h3>
+      </header>
+      
+      <ul class="post-preview-list">
+        {% for post in posts limit:3 %}
+          <li class="post-item">
+            <a href="{{ post.url }}" class="post-link">
+              <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+                {{ post.date | date: "%b %d, %Y" }}
+              </time>
+              {{ post.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      
+      <footer class="category-footer">
+        <a href="/{{ category_name | slugify }}/" class="see-all">
+          Ver todos ({{ posts.size }} posts) →
+        </a>
+      </footer>
+    </article>
+  {% endfor %}
+</section>
