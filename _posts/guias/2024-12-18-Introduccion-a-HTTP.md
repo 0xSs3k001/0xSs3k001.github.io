@@ -1,5 +1,5 @@
 ---
-categories: guia
+categories: guias
 layout: post
 title: introducción-al-protocolo-HTTP.txt
 subtitle: Conceptos básicos y flujo general
