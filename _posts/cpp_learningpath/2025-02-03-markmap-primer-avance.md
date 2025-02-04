@@ -1,5 +1,5 @@
 ---
-title: "Título de la Guía"
+title: "Primer avance: Tabla de contenidos"
 categories: cpp_learningpath
 date: 2025-02-03
 ---
